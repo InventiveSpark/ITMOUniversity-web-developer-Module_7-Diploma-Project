@@ -661,8 +661,9 @@ main>section:last-of-type {
         padding-bottom: 0.2rem;
     }
 
-    .navbar-brand>img {
-        max-height: 35px;
+    .navbar-brand img {
+        height: 35px;
+        width: 46px;
     }
 
     /* Компенсация высоты шапки, скрывающей контент, изменяется: */
