@@ -217,6 +217,14 @@ main>section:last-of-type {
     background-color: #f2f2f2;
 }
 
+/* Модальные окна входа (Modal Sign-In) и регистрации (Modal Register) */
+
+#modal-signin .modal-body, #modal-register .modal-body {
+    /* Горизонтальное выравнивание текста (или строчных элементов): */
+    text-align: left;
+    padding-bottom: 0;
+}
+
 /* Модальное окно корзины (Modal Cart) */
 
 #modal-cart .modal-title {
@@ -567,7 +575,7 @@ main>section:last-of-type {
     margin: 2rem auto 0;
 }
 
-#discounts .form-note {
+.form-note {
     color: #8f8f8f;
 }
 
