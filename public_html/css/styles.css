@@ -381,15 +381,23 @@ main>section:last-of-type {
     color: #fb195a;
 }
 
-/* Каталог товаров (Catalog Section) */
+/* Каталог товаров и избранное (Catalog Section) */
 
-#catalog {
-    /* Внутренние отступы в контейнере каталога. Отступы сверху и снизу
+#catalog, #wishlist {
+    /* Внутренние отступы в контейнере каталога и избранного. Отступы снизу
        задаются в единицах, равных корневому (базовому) значению font-size: */
-    padding: 3rem 0;
+    padding: 0 0 3rem 0;
 }
 
-.catalog-column {
+#catalog .container-fluid, #wishlist .container-fluid {
+    text-align: left;
+}
+
+#catalog .container-fluid:first-of-type, #wishlist .container-fluid:first-of-type {
+    padding-bottom: 0.2rem;
+}
+
+.catalog-column, .wishlist-column {
     /* Горизонтальное выравнивание текста (или строчных элементов): */
     text-align: left;
 }
@@ -427,7 +435,7 @@ main>section:last-of-type {
     color: #8f8f8f;
 }
 
-.catalog-title {
+.catalog-title, .wishlist-title {
     font-weight: 500;
     /* Показывать элемент как блочный: */
     display: block;
@@ -459,6 +467,10 @@ main>section:last-of-type {
     color: #ff4c68;
 }
 
+.out-of-stock .product-price {
+    color: black;
+}
+
 .product-price small {
     text-decoration: line-through;
     font-weight: 400;
@@ -469,6 +481,11 @@ main>section:last-of-type {
 .product-links a {
     font-size: 1.3rem;
     margin-left: 10px;
+}
+
+/* Для товаров, которых нет в наличии, скрывается кнопка добавления в корзину: */
+.out-of-stock .product-links a:first-of-type {
+    display: none;
 }
 
 /* Скидки (Discount section) */
