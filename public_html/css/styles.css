@@ -394,7 +394,8 @@ main>section:last-of-type {
 }
 
 #catalog .container-fluid:first-of-type, #wishlist .container-fluid:first-of-type {
-    padding-bottom: 0.2rem;
+    padding-bottom: 1.7rem;
+    padding-left: 0;
 }
 
 .catalog-column, .wishlist-column {
@@ -490,17 +491,23 @@ main>section:last-of-type {
 
 /* Скидки (Discount section) */
 
-#discounts .container-fluid {
+#discounts .container-fluid, #discounts .container {
     /* Горизонтальное выравнивание текста (или строчных элементов): */
     text-align: left;
 }
 
 #discounts .container-fluid:first-of-type {
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+#discounts .container:first-of-type {
     padding-bottom: 0.2rem;
 }
 
-#discounts .container-fluid:last-of-type {
+#discounts .container:last-of-type {
     padding-top: 0.2rem;
+    padding-bottom: 5rem;
 }
 
 #discounts h1 {
