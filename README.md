@@ -4,4 +4,6 @@
 
 [Heroku link](https://ashot-e-shop.herokuapp.com/).
 
+Пояснительная записка к дипломной работе доступна [здесь](https://github.com/InventiveSpark/ITMOUniversity-web-developer/tree/main/Module_7/).
+
 P.S. Практические и самостоятельные работы к курсу доступны [здесь](https://github.com/InventiveSpark/ITMOUniversity-web-developer).
