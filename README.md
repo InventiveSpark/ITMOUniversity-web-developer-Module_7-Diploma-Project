@@ -1,6 +1,6 @@
 # ITMOUniversity-web-developer-Module_7-Diploma-Project
 
-Дипломная работа по курсу «[Веб-разработчик 20.35](https://design.itmo.ru/courses/web_developer_junior/)» от [Университета ИТМО](https://itmo.ru).
+Дипломная работа по курсу «[Веб-разработчик 20.35](https://web.archive.org/web/20220525010814/https://design.itmo.ru/courses/web_developer_junior/)» от [Университета ИТМО](https://itmo.ru).
 
 [GitHub Pages link](https://inventivespark.github.io/ITMOUniversity-web-developer-Module_7-Diploma-Project/).
 
